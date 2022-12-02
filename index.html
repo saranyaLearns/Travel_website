@@ -1,0 +1,108 @@
+<html>
+<head>
+	<title>Responsive</title>
+	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!--navbar--->
+	<div class="navbar">
+		<h1 class="logo">SnowBird Traveller</h3>
+			<ul class="nav-links">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">Tours</a></li>
+				<li><a href="#">Explore</a></li>
+				<li><a href="#">About</a></li>
+				<li class="ctn"><a href="#">Contact</a></li>
+			</ul>
+			
+	<img src="img/settings.png" class="menu-btn">
+			
+	</div>
+	<header>
+		<div class="header-content">
+			<h2>Explore the Tour....</h2>
+			<div class="line"></div>
+			<h1>Being the capital of the state and home to beautiful temples, churches, and beaches is best tourist place in 
+			Tamil Nadu that would let you have a real glimpse of South India and its lifestyle.</h1>
+			<a href="#" class="ctn">Lear More</a>
+		</div>
+	</header>
+	
+	<!---events--->
+	<section class="events">
+		<div class="title">
+			<h1>Upcoming Events</h1>
+			<div class="line"></div>
+		</div>
+		
+		<div class="row">
+			<div class="col">
+				<img src="img/9.jpg">
+				<h4>Hill station Travel Trek...</h4>
+				<p>The coolest place in Tamilnadu is Ooty, which is also the number 1 hill station and quite favorite among 
+				travellers are visited. Every tourist wants to see the wondrous magic of mountains and valleys in Ooty </p>
+				<a href="#" class="ctn">Learn More</a>	
+			</div>
+			<div class="col">
+				<img src="img/10.jpg">
+				<h4>Travel Trek...</h4>
+				<p>Ooty, Yercaud, Yelagiri, Coonoor, Kotagiri, Kolli Hills, Kolukkumalai, Javadi Hill, Kalrayan Hills, Yelagiri 
+				and many more. Providing a perfect weekend getaway, hill stations of Tamil Nadu are all one of a kind. </p>
+				<a href="#" class="ctn">Learn More</a>	
+			</div>
+		</div>
+		
+	</section>
+	
+	<section class="explore">
+		<div class="explore-content">
+			<h1>Explore Our TamilNadu</h1>
+			<div class="line"></div>
+			<p>Tamil Nadu, in south India, is situated between the Nilgiri Hills and the Bay of Bengal. The state offers some 
+			amazing beach cities and hill stations for people to come and visit. The historical value of Tamil Nadu also makes 
+			it an important destination in India.</p>
+			<a href="#" class="ctn">Learn More</a>
+		</div>
+	</section>
+	
+	<!--tour--->
+	
+	<section class="tours">
+		<div class="row">
+			<div class="col content-col">
+				<h1>Visit Some historical Places for Tamil Nadu.</h1>
+			<div class="line"></div>
+			<p>All religious saints, seers, scholars and social thinkers have only spread the message of love and peace. </p>
+			<a href="#" class="ctn">Learn More</a>
+			</div>
+			<div class="col image-col">
+				<div class="image-gallery">
+					<img src="img/8.jpg">
+					<img src="img/4.jpg">
+					<img src="img/5.jpg">
+					<img src="img/6.jpg">
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!--footer-->
+	
+	
+	<section class="footer">
+		<p> | Bacic Responsive Tours and Travel website. | Travel to natural way  |</p> <br>
+		<p>&copy; Designed by Saranya.R</p>
+	</section>
+	
+<script>
+const menuBtn=document.querySelector('.menu-btn');
+const navLinks=document.querySelector('.nav-links');
+
+menuBtn.addEventListener('click',()=>{
+	navLinks.classList.toggle('mobile-menu');
+});
+</script>
+
+</body>
+</html>
